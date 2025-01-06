@@ -24,8 +24,8 @@ function getTotalPopulation(value) {
   return value.reduce((a, b) => a + b, 0);
 }
 
-function getAveragePopulation(value, numbersLength) {
-  return value / numbersLength.length;
+function getAveragePopulation(value, values) {
+  return value / values.length;
 }
 
 function replacePopulation() {
